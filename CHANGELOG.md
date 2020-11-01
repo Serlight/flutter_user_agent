@@ -1,27 +1,3 @@
-# flutter_user_agent version history
-## 1.2.2
-
-* Update `compileSdkVersion` to 28. (thanks [@miguelpruivo](https://github.com/miguelpruivo)!)
-
-## 1.2.1
-
-* iOS user-agent database update. Specifically the iPhone XS, XR and 11 variants (thanks [@pravinarr](https://github.com/pravinarr)!)
-
-## 1.2.0
-
-* iOS deprecation API change.
-
-    > ITMS-90809: Deprecated API Usage - Apple will stop accepting submissions of apps that use UIWebView APIs . See https://developer.apple.com/documentation/uikit/uiwebview for more information.
-                           
-  - Remove references to `UIWebView` as it's deprecated and currently stops app submissions to the App Store - [#3](https://github.com/j0j00/flutter_user_agent/issues/3) (thanks [@rodruiz](https://github.com/rodruiz)!)
-  
-  - The plugin will only work on iOS 8 and up.
-
-## 1.1.0
-
-* iOS API change for compatibility purposes.
-
-  Change `UIWebView` (deprecated since iOS 12.0) to `WKWebView` - [#1](https://github.com/j0j00/flutter_user_agent/issues/1) (courtesy of [@Triipaxx](https://github.com/Triipaxx)!)
 
 ## 1.0.1
 
